@@ -17,7 +17,9 @@
     "eslint": "^1.10.3",
     "express": "^4.12.2",
     "kraken-js": "^1.0.3",
-    "makara": "^2.0.3"
+    "lodash": "^4.5.1",
+    "makara": "^2.0.3",
+    "sillyname": "^0.1.0"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
