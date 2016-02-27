@@ -5,8 +5,8 @@ module.exports = function dustjs(grunt) {
 
   return {
     build: {
-      root: process.cwd(),
-      dest: 'public/components',
+      root    : process.cwd(),
+      dest    : 'public/components',
       basePath: 'public'
     }
   };
