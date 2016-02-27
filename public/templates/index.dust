@@ -1,5 +1,7 @@
 {>"layouts/master" /}
 
 {<body}
-  <h1>Hello, {name}</h1>
+  <img src="https://media.giphy.com/media/14j9Y06KLXsjCg/giphy.gif">
+  <a href="./generate">Generate some emails!</a>
+  <a href="./sortAndFilter">Sort and filter those emails!</a>
 {/body}
