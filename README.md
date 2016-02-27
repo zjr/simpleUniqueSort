@@ -1,7 +1,7 @@
 simpleUniqueSort
 ===========
 
-Sorts a list, filtering duplicates.
+Sorts a list, filtering duplicates.  The most relevant files are located in ./lib.
 
 ### GET /generate
 
