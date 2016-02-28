@@ -1,7 +1,6 @@
 {>"layouts/master" /}
 
 {<body}
-  <img src="https://media.giphy.com/media/14j9Y06KLXsjCg/giphy.gif">
   <h1>
     <a href="./generate">Generate some emails!</a>
   </h1>
