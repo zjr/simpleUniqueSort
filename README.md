@@ -3,7 +3,7 @@ simpleUniqueSort
 
 Sorts a list, filtering duplicates.  The most relevant files are located in ./lib.
 
-### GET /generate[?listSize={1-1000000}&dupeRate={0.0-1.0}]
+### `GET /generate[?listSize={1-1000000}&dupeRate={0.0-1.0}]`
 
 #### Params
 
@@ -30,7 +30,7 @@ Generates a new list of emails & returns that list.
 
 Available at http://66.175.219.122:8087/generate or http://sort.zjr.io/generate depending on DNS propagation speeds.
 
-### GET /unique[?orig={false}&includeList={false}]
+### `GET /unique[?orig={false}&includeList={false}]`
 
 #### Params
 
@@ -56,7 +56,7 @@ performant method—while optionally returning the filtered list.
 
 Available at http://66.175.219.122:8087/unique or http://sort.zjr.io/unique
 
-### GET /sortAndFilter
+### `GET /sortAndFilter`
 
 #### Description
 
