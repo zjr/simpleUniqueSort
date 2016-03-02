@@ -8,14 +8,14 @@ module.exports = function (router) {
   router.get('/', function (req, res) {
 
     loadList((err, data) => {
-      if (err) { return res.status(500).send(err); }
+      if (err) { return res.status(500).json(err); }
       const uniqueResults = unique.origPerf(data);
 
       const body = req.query.includeList
         ? uniqueResults
         : uniqueResults.runTime;
 
-      res.send(body);
+      res.json(body);
     });
 
   });
