@@ -45,7 +45,7 @@ method made for use with the sort.
 Type: `Boolean`
 Default: `false`
 
-Set this option (I'm still not parsing bools from the string) to use receive the
+Set this option (I'm still not parsing bools from the string) to receive the
 filtered list with the return.
 
 #### Description
