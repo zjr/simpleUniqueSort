@@ -9,7 +9,7 @@ module.exports = function (router) {
 
     loadList((err, data) => {
       if (err) { return res.status(500).json(err); }
-      const uniqueResults = unique.origPerf(data);
+      const uniqueResults = unique.withPerf(data, req.query.orig);
 
       const body = req.query.includeList
         ? uniqueResults
