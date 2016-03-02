@@ -24,7 +24,7 @@ of `1.0` with a `listSize` of `10` will create a a list with 5 unique emails and
 5 duplicates, whereas `{ listSize: 10, dupeRate: 0.5 }` would create
 *approximately* 7 unique emails and 3 duplicates.
 
-##### Description
+#### Description
 
 Generates a new list of emails & returns that list.
 
